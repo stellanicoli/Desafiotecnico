@@ -1,0 +1,172 @@
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+.logo {
+    width: 20.744680851064%; /*234px / 1128px */
+    float: left;
+    margin-left: 100px;
+ }
+body{
+    
+    
+    background-color: #000000;
+    box-align: center;
+
+}
+
+h1{
+    color: #ffffff;
+    text-align: left;
+}
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+ }
+
+ul#album-fotos{
+    float: left;
+    margin: 20 auto;
+    padding-left: 100px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+ul#album-fotos li{
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    transition: all .3s ease-in;
+    
+}
+
+ul#album-fotos li span#vivo{
+    
+    color: #ffffff;
+    background-color: green;
+    text-shadow: 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 50px;
+    padding-right: 2.5cm;
+    padding-top: .3cm;
+    padding-bottom: .3cm;
+    
+    
+    
+
+}
+
+ul#album-fotos li span#morto{
+    
+    color: #ffffff;
+    background-color: orange;
+    text-shadow: 1px 1px 1px #000000;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 50px;
+    padding-right: 2.5cm;
+    padding-top: .3cm;
+    padding-bottom: .3cm;
+
+}
+
+
+
+
+ul#album-fotos li:hover{
+    transform: scale(1.0);
+}
+
+ul#album-fotos li#foto01{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto02{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto03{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;background-position: 50% 50%;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto04{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto05{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    
+}
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto06{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto07{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+ul#album-fotos li#foto07:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
+ul#album-fotos li#foto08{
+    background: url('../_imagem/cast_bb_700x1000_walter-white-lg.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px;
+    background-color: #ffffff
+}
+ul#album-fotos li#foto08:hover {
+    background-position: 0px 0px;
+    background-size: 300px;
+}
